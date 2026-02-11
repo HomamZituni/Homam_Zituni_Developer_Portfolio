@@ -1,34 +1,57 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Ordinal",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A banking rewards platform with AI-forward recommendations that rank rewards based on spending behavior, tier status, and points balance. Includes gamification prompts to incentize card usage and spend",
+    image: "/Ordinal.jpg",
+    link: "https://github.com/HomamZituni/Ordinal-Frontend"
   },
+
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Apartment Project",
+    subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+    image: "/",
+    link: "https://github.com/HomamZituni/REACTAPARTMENT",
   },
   {
-    title: "DevChat",
+    title: "URL Shortening Landing Page",
     subtitle: "React and Firebase",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "",
     image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+    link: "https://homamzituni.github.io/PROJECT1URLSHORTENINGLANDINGPAGE/",
   },
   {
-    title: "Epic Todo App",
+    title: "Task Management App",
     subtitle: "React Hooks",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "",
     image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+    link: "https://homamzituni.github.io/SBA4TaskManagementApp/",
   },
 ];
+
+export const skills = {
+  frontend: [
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "HTML/CSS",
+  ],
+  backend: [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "RESTful APIs"
+  ],
+  infrastructure: [
+    "AWS",
+    "Git/GitHub",
+    "Security Best Practices"
+  ]
+};
+
+
