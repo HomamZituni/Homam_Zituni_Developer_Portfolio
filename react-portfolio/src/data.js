@@ -3,42 +3,41 @@ export const projects = [
     title: "Ordinal",
     subtitle: "MERN Stack",
     description:
-      "A banking rewards platform with AI-forward recommendations that rank rewards based on spending behavior, tier status, and points balance. Includes gamification prompts to incentize card usage and spend",
+      "An AI-forward banking rewards platform that ranks rewards using a next-best-action formula and uses gamification to incentivize card usage and spending",
     image: "/Ordinal.jpg",
     link: "https://github.com/HomamZituni/Ordinal-Frontend"
   },
-
   {
     title: "Apartment Project",
     subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "/",
+      "An apartment complex single page application",
+    image: "/Apartment Project.PNG",
     link: "https://github.com/HomamZituni/REACTAPARTMENT",
   },
   {
     title: "URL Shortening Landing Page",
-    subtitle: "React and Firebase",
+    subtitle: "HTML, CSS, JavaScript and REST API",
     description:
-      "",
-    image: "./project-3.gif",
+      "A url shortening webapp with a Bitly API integration",
+    image: "/URL Shortening Logo.PNG",
     link: "https://homamzituni.github.io/PROJECT1URLSHORTENINGLANDINGPAGE/",
   },
   {
     title: "Task Management App",
-    subtitle: "React Hooks",
+    subtitle: "HTML, CSS and JavaScript",
     description:
-      "",
-    image: "./project-4.gif",
+      "A task management app",
+    image: "/Task Management Logo.jpg",
     link: "https://homamzituni.github.io/SBA4TaskManagementApp/",
   },
 ];
 
 export const skills = {
   frontend: [
-    "React",
+    "ReactJS",
     "JavaScript",
-    "TypeScript",
+    "Python",
     "HTML/CSS",
   ],
   backend: [
@@ -49,9 +48,19 @@ export const skills = {
   ],
   infrastructure: [
     "AWS",
-    "Git/GitHub",
-    "Security Best Practices"
+    "GRC",
+    "Secure SDLC",
+    "Threat Modeling"
   ]
 };
+
+export const testimonials = [
+  {
+    quote: "Great developer to work with!",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "John Doe",
+    company: "Tech Company"
+  }
+];
 
 
