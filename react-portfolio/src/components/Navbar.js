@@ -16,6 +16,8 @@ export default function Navbar() {
           <a href="#about" className="mr-5 hover:text-white">About</a>
           <a href="#skills" className="mr-5 hover:text-white">Skills</a>
           <a href="#projects" className="mr-5 hover:text-white">Projects</a>
+          <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener noreferrer" className="mr-5 hover:text-white">GitHub</a>
+          <a href="/path-to-your-resume.pdf" download className="mr-5 hover:text-white">Resume</a>
         </nav>
         
         {/* Contact Button */}
@@ -27,3 +29,4 @@ export default function Navbar() {
     </header>
   );
 }
+

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Contact() {
   return (
     <section id="contact" className="relative">
@@ -17,27 +18,13 @@ export default function Contact() {
             src="https://www.google.com/maps/embed/v1/place?q=Atlanta,+Georgia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            <div className="px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 LOCATION
               </h2>
               <p className="mt-1">
                 Atlanta, Georgia
               </p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                LINKS
-              </h2>
-              <a href="https://github.com/HomamZituni" target="_blank" rel="noopener noreferrer" className="text-indigo-400 leading-relaxed block">
-                GitHub
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                RESUME
-              </h2>
-              <a href="/Zituni, Homam Resume 2026.pdf" download className="text-indigo-400 leading-relaxed">
-                Download Resume
-              </a>
             </div>
           </div>
         </div>
@@ -65,5 +52,6 @@ export default function Contact() {
     </section>
   );
 }
+
 
 
