@@ -8,12 +8,12 @@ export const projects = [
     link: "https://github.com/HomamZituni/Ordinal-Frontend"
   },
   {
-    title: "Apartment Project",
+    title: "FNAF Project",
     subtitle: "React",
     description:
-      "An apartment complex single page application",
-    image: "/Apartment Project.PNG",
-    link: "https://github.com/HomamZituni/REACTAPARTMENT",
+      "A jeopardy game based around the FNAF series",
+    image: "/FNAF_jeopardy.png",
+    link: "https://fnaf-jeopardy-react.vercel.app/",
   },
   {
     title: "URL Shortening Landing Page",
