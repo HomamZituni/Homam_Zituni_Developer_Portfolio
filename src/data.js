@@ -5,7 +5,7 @@ export const projects = [
     description:
       "An AI-forward banking rewards platform that ranks rewards using a next-best-action formula and uses gamification to incentivize card usage and spending",
     image: "/Ordinal.jpg",
-    link: "https://github.com/HomamZituni/Ordinal-Frontend"
+    link: "https://ordinal-frontend.vercel.app/"
   },
   {
     title: "FNAF Project",
